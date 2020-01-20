@@ -25,6 +25,14 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('isParent',function($user){
+            return $user->type==='parent';
+        });
+        Gate::define('isChildren',function($user){
+            return $user->type==='children';
+        });
+        Gate::define('isGuest',function($user){
+            return $user->type==='guest';
+        });
     }
 }

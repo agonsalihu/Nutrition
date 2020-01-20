@@ -60451,16 +60451,16 @@ var render = function() {
                               _vm._v("Select user role")
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "admin" } }, [
-                              _vm._v("Admin")
+                            _c("option", { attrs: { value: "parent" } }, [
+                              _vm._v("Parent")
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "user" } }, [
-                              _vm._v("User")
+                            _c("option", { attrs: { value: "children" } }, [
+                              _vm._v("Children")
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "author" } }, [
-                              _vm._v("Author")
+                            _c("option", { attrs: { value: "Guest" } }, [
+                              _vm._v("Guest")
                             ])
                           ]
                         ),
