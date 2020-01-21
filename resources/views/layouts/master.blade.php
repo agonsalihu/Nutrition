@@ -71,10 +71,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <i class="nav-icon fas fa-tachometer-alt blue" ></i>
               <p>
                 Dashboard
-<<<<<<< HEAD
-=======
-
->>>>>>> cc483ffdc8e14666b44ccf0b73f83151f8bc4734
               </p>
             </router-link>
           </li>
