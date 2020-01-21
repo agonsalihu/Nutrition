@@ -1829,6 +1829,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -59538,16 +59576,100 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
+        _c("div", { staticClass: "col-md-6 mt-3" }, [
+          _c("div", { staticClass: "card card-primary" }, [
             _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
+              _c("h3", { staticClass: "card-title" }, [_vm._v("Quick Example")])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
+            _c("form", { attrs: { role: "form" } }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "exampleInputEmail1" } }, [
+                    _vm._v("Email address")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "email",
+                      id: "exampleInputEmail1",
+                      placeholder: "Enter email"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "exampleInputPassword1" } }, [
+                    _vm._v("Password")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "password",
+                      id: "exampleInputPassword1",
+                      placeholder: "Password"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "exampleInputFile" } }, [
+                    _vm._v("File input")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "input-group" }, [
+                    _c("div", { staticClass: "custom-file" }, [
+                      _c("input", {
+                        staticClass: "custom-file-input",
+                        attrs: { type: "file", id: "exampleInputFile" }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "label",
+                        {
+                          staticClass: "custom-file-label",
+                          attrs: { for: "exampleInputFile" }
+                        },
+                        [_vm._v("Choose file")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "input-group-append" }, [
+                      _c(
+                        "span",
+                        { staticClass: "input-group-text", attrs: { id: "" } },
+                        [_vm._v("Upload")]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check" }, [
+                  _c("input", {
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox", id: "exampleCheck1" }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-check-label",
+                      attrs: { for: "exampleCheck1" }
+                    },
+                    [_vm._v("Check me out")]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-footer" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+                  [_vm._v("Submit")]
+                )
+              ])
             ])
           ])
         ])
@@ -76371,7 +76493,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\r\n$color1: ;\r\n        ^\r\n      Expected expression.\n   ╷\n21 │ $color1: ;\n   │          ^\n   ╵\n  resources\\sass\\_variables.scss 21:10  @import\n  stdin 6:9                             root stylesheet\r\n      in C:\\Users\\agons\\desktop\\sd\\smart\\resources\\sass\\_variables.scss (line 21, column 10)\n    at runLoaders (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\webpack\\lib\\NormalModule.js:316:20)\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at render (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass-loader\\dist\\index.js:89:7)\n    at Function.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:55018:16)\n    at _render_closure1.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:33885:12)\n    at _RootZone.runBinary$3$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19864:18)\n    at _RootZone.runBinary$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19868:19)\n    at _FutureListener.handleError$1 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18333:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18621:40)\n    at Object._Future__propagateToListeners (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3495:88)\n    at _Future._completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18457:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17856:12)\n    at Object._asyncRethrow (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3251:17)\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:10539:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3274:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17877:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17869:25)\n    at _RootZone.runBinary$3$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19864:18)\n    at _RootZone.runBinary$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19868:19)\n    at _FutureListener.handleError$1 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18333:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18621:40)\n    at Object._Future__propagateToListeners (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3495:88)\n    at _Future._completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18457:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17856:12)\n    at Object._asyncRethrow (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3251:17)\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:12263:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3274:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17877:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17869:25)\n    at _RootZone.runBinary$3$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19864:18)\n    at _RootZone.runBinary$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19868:19)\n    at _FutureListener.handleError$1 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18333:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18621:40)\n    at Object._Future__propagateToListeners (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3495:88)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
