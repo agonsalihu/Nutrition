@@ -1,5 +1,5 @@
 <?php
-
+use Carbon\Carbon;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +20,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('{path}', 'HomeController@index')->where( 'path' , '([A-z\d\-\/_.]+)?' );
+Route::get('/time',function(){
+    $current = new Carbon();
+    $current->timezone('Europe/Belgrade');
+    echo $current; 
+});
