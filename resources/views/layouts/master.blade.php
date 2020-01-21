@@ -86,10 +86,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav -item">
-                <router-link to="/insertAnalysis" class="nav-link ">
+                <a href="/analysis" class="nav-link ">
                   <i class="fas fa-file-medical-alt nav-icon indigo "></i>
                   <p>Insert Analysis</p>
-                </router-link>
+                </a>
               </li>
             </ul>
             <ul class="nav nav-treeview">
@@ -187,6 +187,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <div class="container-fluid"> 
          <router-view></router-view>
+         @yield('content')
          <vue-progress-bar></vue-progress-bar>
       </div><!-- /.container-fluid -->
     </div>

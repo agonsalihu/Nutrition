@@ -21,6 +21,7 @@ Route::resource('nutrition_amount', 'NutritionAmountController');
 Route::resource('nutrition', 'NutritionController');
 Route::resource('optimal_dose', 'OptimalDoseController');
 Route::resource('recipe', 'RecipeController');
+Route::resource('analysis', 'AnalysisController');
 Route::resource('recipe_ingredients', 'RecipeIngredientsController');
 
 Route::get('/home', 'HomeController@index')->name('home');
