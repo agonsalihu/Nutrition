@@ -12,7 +12,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <title>Smart Nutrition</title>
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper" id="app">
@@ -24,7 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
       </li>
-      
+
     </ul>
     <!-- SEARCH FORM -->
     <form class="form-inline ml-3">
@@ -38,7 +38,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </div>
     </form>
 
-    
+
   </nav>
   <!-- /.navbar -->
 
@@ -46,7 +46,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="./img/apple.png" alt="SmartNutrition Logo" class="brand-image img-circle elevation-3"
+      <img src="{{asset('/img/apple.png')}}" alt="SmartNutrition Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">Smart Nutrition</span>
     </a>
@@ -56,7 +56,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="./img/user.png" class="img-circle elevation-2" alt="User Image">
+          <img src="{{asset('img/user.png')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">{{Auth::user()->name}}</a>
@@ -71,11 +71,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <i class="nav-icon fas fa-tachometer-alt blue" ></i>
               <p>
                 Dashboard
-                
+
               </p>
             </router-link>
           </li>
-          
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-chart-bar green"></i>
@@ -86,7 +86,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav -item">
-                <a href="/analysis" class="nav-link ">
+                <a href="/analysis/create" class="nav-link ">
                   <i class="fas fa-file-medical-alt nav-icon indigo "></i>
                   <p>Insert Analysis</p>
                 </a>
@@ -148,7 +148,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <i class="nav-icon fas fa-user orange"></i>
               <p>
                 Profile
-                
+
               </p>
             </router-link>
           </li>
@@ -166,7 +166,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               @csrf
             </form>
           </li>
-          
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -176,10 +176,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    
+
     <!-- Main content -->
     <div class="content">
-      <div class="container-fluid"> 
+      <div class="container-fluid">
          <router-view></router-view>
          @yield('content')
          <vue-progress-bar></vue-progress-bar>
@@ -203,6 +203,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </div>
 <!-- ./wrapper -->
 
-<script src="js/app.js"></script>
+<script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
