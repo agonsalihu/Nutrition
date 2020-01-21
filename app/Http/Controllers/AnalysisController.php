@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
+use App\Analysis;
+use App\Nutritions;
+use Illuminate\Support\Facades\Auth;
 
 class AnalysisController extends Controller
 {
@@ -13,7 +17,7 @@ class AnalysisController extends Controller
      */
     public function index()
     {
-        return view('analysis.create');
+        return view('analysis.index');
     }
 
     /**
@@ -23,7 +27,8 @@ class AnalysisController extends Controller
      */
     public function create()
     {
-        //
+        $nutritions = Nutritions::all();
+        return view('analysis.create', ['nutritions' => $nutritions]);
     }
 
     /**
@@ -34,7 +39,13 @@ class AnalysisController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        foreach (Input::get('nutritions') as $nutrition_id => $amount){
+            Analysis::create([
+                'user_id'  =>  Auth::user()->id,
+                'nutrition_id'  =>  $nutrition_id,
+                'amount'  =>  $amount,
+            ]);
+        }
     }
 
     /**
@@ -45,7 +56,7 @@ class AnalysisController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('analysis.show');
     }
 
     /**
@@ -56,7 +67,7 @@ class AnalysisController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('analysis.edit');
     }
 
     /**

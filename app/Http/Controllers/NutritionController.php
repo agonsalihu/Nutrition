@@ -13,7 +13,7 @@ class NutritionController extends Controller
      */
     public function index()
     {
-        //
+        return view('nutrition.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class NutritionController extends Controller
      */
     public function create()
     {
-        //
+        return view('nutrition.create');
     }
 
     /**
@@ -45,7 +45,7 @@ class NutritionController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('nutrition.show');
     }
 
     /**
@@ -56,7 +56,7 @@ class NutritionController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('nutrition.edit');
     }
 
     /**

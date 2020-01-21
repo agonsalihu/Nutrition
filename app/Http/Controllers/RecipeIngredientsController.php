@@ -13,7 +13,7 @@ class RecipeIngredientsController extends Controller
      */
     public function index()
     {
-        //
+        return view('recipe_ingredients.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class RecipeIngredientsController extends Controller
      */
     public function create()
     {
-        //
+        return view('recipe_ingredients.create');
     }
 
     /**
@@ -45,7 +45,7 @@ class RecipeIngredientsController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('recipe_ingredients.show');
     }
 
     /**
@@ -56,7 +56,7 @@ class RecipeIngredientsController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('recipe_ingredients.edit');
     }
 
     /**

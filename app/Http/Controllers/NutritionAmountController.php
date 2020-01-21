@@ -23,7 +23,7 @@ class NutritionAmountController extends Controller
      */
     public function create()
     {
-        //
+        return view('nutrition_amount.create');
     }
 
     /**
@@ -45,7 +45,7 @@ class NutritionAmountController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('nutrition_amount.show');
     }
 
     /**
@@ -56,7 +56,7 @@ class NutritionAmountController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('nutrition_amount.edit');
     }
 
     /**

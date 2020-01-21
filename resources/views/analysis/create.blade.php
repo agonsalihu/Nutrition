@@ -11,97 +11,15 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
+              <form role="form" action="{{ route('analysis.store') }}" method="POST">
+                @csrf
                 <div class="card-body row">
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Potassium</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Chlorine</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Sodium</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Calcium</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Phosphorus</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Magnesium</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Iron</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Zinc</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Manganese</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Copper</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Minerals">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">A Vitamin</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">B1 Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">B2 Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">B5 Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">B7 Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">B9 Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">B12 Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">C Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">D Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">E Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">K Vitamins</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                  <div class="form-group col-4">
-                    <label for="exampleInputName">Folic Acid</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vitamins">
-                  </div>
-                 
+                    @foreach($nutritions as $nutritions)
+                        <div class="form-group col-4">
+                            <label for="nutritions[{{$nutritions->id}}]">{{$nutritions->name}}</label>
+                            <input type="number" step="0.01" class="form-control" name="nutritions[{{$nutritions->id}}]" placeholder="Minerals">
+                        </div>
+                    @endforeach
                 </div>
                 <!-- /.card-body -->
 
@@ -111,9 +29,6 @@
               </form>
             </div>
             <!-- /.card -->
-
-           
-
           </div>
         </div>
     </div>

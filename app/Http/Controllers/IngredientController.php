@@ -14,8 +14,7 @@ class IngredientController extends Controller
      */
     public function index()
     {
-        $ingridients = Ingredients::all();
-        return view('home');
+        return view('ingredient.index');
     }
 
     /**
@@ -25,7 +24,7 @@ class IngredientController extends Controller
      */
     public function create()
     {
-        //
+        return view('ingredient.create');
     }
 
     /**
@@ -47,7 +46,7 @@ class IngredientController extends Controller
      */
     public function show($id)
     {
-
+        return view('ingredient.show');
     }
 
     /**
@@ -58,7 +57,7 @@ class IngredientController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('ingredient.edit');
     }
 
     /**
@@ -70,7 +69,7 @@ class IngredientController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
     }
 
     /**

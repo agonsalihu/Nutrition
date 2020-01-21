@@ -13,7 +13,7 @@ class OptimalDoseController extends Controller
      */
     public function index()
     {
-        //
+        return view('optimal_dose.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class OptimalDoseController extends Controller
      */
     public function create()
     {
-        //
+        return view('optimal_dose.create');
     }
 
     /**
@@ -45,7 +45,7 @@ class OptimalDoseController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('optimal_dose.show');
     }
 
     /**
@@ -56,7 +56,7 @@ class OptimalDoseController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('optimal_dose.edit');
     }
 
     /**
