@@ -94,10 +94,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
             <ul class="nav nav-treeview">
               <li class="nav -item">
-                <router-link to="/reqNutri" class="nav-link ">
+                <a href="/nutrition_amount" class="nav-link ">
                   <i class="fas fa-seedling nav-icon  green"></i>
                   <p>Required Nutrient</p>
-                </router-link>
+                </a>
               </li>
             </ul>
           </li>
@@ -112,12 +112,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <ul class="nav nav-treeview">
               <li class="nav -item">
                 <router-link to="/ingredients/create" class="nav-link ">
-                  <i class="fas fa-utensils nav-icon indigo "></i>
-                  <p>Food Management</p>
-                </router-link>
-              </li>
-              <li class="nav -item">
-                <router-link to="/foodManagement" class="nav-link ">
                   <i class="fas fa-utensils nav-icon indigo "></i>
                   <p>Food Management</p>
                 </router-link>

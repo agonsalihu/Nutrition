@@ -13,7 +13,7 @@ class NutritionAmountController extends Controller
      */
     public function index()
     {
-        //
+        return view('nutrition_amount.index');
     }
 
     /**
