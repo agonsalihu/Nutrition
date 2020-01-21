@@ -10,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>AdminLTE 3 | Starter</title>
+  <title>Smart Nutrition</title>
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <link rel="stylesheet" href="/css/app.css">
 </head>
@@ -75,10 +75,35 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </router-link>
           </li>
-          
+          <li class="nav-item">
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-cog green"></i>
+              <i class="nav-icon fas fa-chart-bar green"></i>
+              <p>
+                Analysis
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav -item">
+                <router-link to="/insertAnalysis" class="nav-link ">
+                  <i class="fas fa-file-medical-alt nav-icon indigo "></i>
+                  <p>Insert Analysis</p>
+                </router-link>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav -item">
+                <router-link to="/reqNutri" class="nav-link ">
+                  <i class="fas fa-seedling nav-icon  green"></i>
+                  <p>Required Nutrient</p>
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-cog cyan"></i>
               <p>
                 Management
                 <i class="right fas fa-angle-left"></i>
@@ -147,7 +172,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Smart Nutrition</a>.</strong> All rights reserved.
   </footer>
 </div>
 <!-- ./wrapper -->
