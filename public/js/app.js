@@ -1771,6 +1771,39 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FoodManagement.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FoodManagement.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/InsertAnalysis.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/InsertAnalysis.vue?vue&type=script&lang=js& ***!
@@ -2028,6 +2061,39 @@ __webpack_require__.r(__webpack_exports__);
       var data = _ref.data;
       return _this.users = data.data;
     });
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Recipies.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Recipies.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
   }
 });
 
@@ -59401,6 +59467,53 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FoodManagement.vue?vue&type=template&id=0735e5ec&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FoodManagement.vue?vue&type=template&id=0735e5ec& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row justify-content-center" }, [
+        _c("div", { staticClass: "col-md-8" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-header" }, [
+              _vm._v("Example Component")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" }, [
+              _vm._v(
+                "\n                    I'm an example component.\n                "
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/InsertAnalysis.vue?vue&type=template&id=fd76cd40&":
 /*!*****************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/InsertAnalysis.vue?vue&type=template&id=fd76cd40& ***!
@@ -59874,6 +59987,53 @@ var staticRenderFns = [
           { staticClass: "btn btn-danger", attrs: { type: "submit" } },
           [_vm._v("Submit")]
         )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Recipies.vue?vue&type=template&id=65c57b2b&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Recipies.vue?vue&type=template&id=65c57b2b& ***!
+  \***********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row justify-content-center" }, [
+        _c("div", { staticClass: "col-md-8" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-header" }, [
+              _vm._v("Example Component")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" }, [
+              _vm._v(
+                "\n                    I'm an example component.\n                "
+              )
+            ])
+          ])
+        ])
       ])
     ])
   }
@@ -75549,6 +75709,12 @@ var routes = [{
 }, {
   path: '/reqNutri',
   component: __webpack_require__(/*! ./components/RequiredNutrient.vue */ "./resources/js/components/RequiredNutrient.vue")["default"]
+}, {
+  path: '/recipies',
+  component: __webpack_require__(/*! ./components/Recipies.vue */ "./resources/js/components/Recipies.vue")["default"]
+}, {
+  path: '/foodManagement',
+  component: __webpack_require__(/*! ./components/FoodManagement.vue */ "./resources/js/components/FoodManagement.vue")["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
   mode: 'history',
@@ -75784,6 +75950,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/FoodManagement.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/FoodManagement.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FoodManagement_vue_vue_type_template_id_0735e5ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FoodManagement.vue?vue&type=template&id=0735e5ec& */ "./resources/js/components/FoodManagement.vue?vue&type=template&id=0735e5ec&");
+/* harmony import */ var _FoodManagement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FoodManagement.vue?vue&type=script&lang=js& */ "./resources/js/components/FoodManagement.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FoodManagement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FoodManagement_vue_vue_type_template_id_0735e5ec___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FoodManagement_vue_vue_type_template_id_0735e5ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/FoodManagement.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/FoodManagement.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/FoodManagement.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FoodManagement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./FoodManagement.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FoodManagement.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FoodManagement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/FoodManagement.vue?vue&type=template&id=0735e5ec&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/FoodManagement.vue?vue&type=template&id=0735e5ec& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FoodManagement_vue_vue_type_template_id_0735e5ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./FoodManagement.vue?vue&type=template&id=0735e5ec& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FoodManagement.vue?vue&type=template&id=0735e5ec&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FoodManagement_vue_vue_type_template_id_0735e5ec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FoodManagement_vue_vue_type_template_id_0735e5ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/InsertAnalysis.vue":
 /*!****************************************************!*\
   !*** ./resources/js/components/InsertAnalysis.vue ***!
@@ -75917,6 +76152,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Profile_vue_vue_type_template_id_3bd692e4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Profile_vue_vue_type_template_id_3bd692e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Recipies.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Recipies.vue ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Recipies_vue_vue_type_template_id_65c57b2b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Recipies.vue?vue&type=template&id=65c57b2b& */ "./resources/js/components/Recipies.vue?vue&type=template&id=65c57b2b&");
+/* harmony import */ var _Recipies_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Recipies.vue?vue&type=script&lang=js& */ "./resources/js/components/Recipies.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Recipies_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Recipies_vue_vue_type_template_id_65c57b2b___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Recipies_vue_vue_type_template_id_65c57b2b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Recipies.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Recipies.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/Recipies.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Recipies_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Recipies.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Recipies.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Recipies_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Recipies.vue?vue&type=template&id=65c57b2b&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/Recipies.vue?vue&type=template&id=65c57b2b& ***!
+  \*****************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Recipies_vue_vue_type_template_id_65c57b2b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Recipies.vue?vue&type=template&id=65c57b2b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Recipies.vue?vue&type=template&id=65c57b2b&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Recipies_vue_vue_type_template_id_65c57b2b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Recipies_vue_vue_type_template_id_65c57b2b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -76067,7 +76371,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\r\n$color1: ;\r\n        ^\r\n      Expected expression.\n   ╷\n21 │ $color1: ;\n   │          ^\n   ╵\n  resources\\sass\\_variables.scss 21:10  @import\n  stdin 6:9                             root stylesheet\r\n      in C:\\Users\\agons\\desktop\\sd\\smart\\resources\\sass\\_variables.scss (line 21, column 10)\n    at runLoaders (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\webpack\\lib\\NormalModule.js:316:20)\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at render (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass-loader\\dist\\index.js:89:7)\n    at Function.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:55018:16)\n    at _render_closure1.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:33885:12)\n    at _RootZone.runBinary$3$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19864:18)\n    at _RootZone.runBinary$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19868:19)\n    at _FutureListener.handleError$1 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18333:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18621:40)\n    at Object._Future__propagateToListeners (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3495:88)\n    at _Future._completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18457:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17856:12)\n    at Object._asyncRethrow (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3251:17)\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:10539:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3274:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17877:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17869:25)\n    at _RootZone.runBinary$3$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19864:18)\n    at _RootZone.runBinary$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19868:19)\n    at _FutureListener.handleError$1 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18333:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18621:40)\n    at Object._Future__propagateToListeners (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3495:88)\n    at _Future._completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18457:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17856:12)\n    at Object._asyncRethrow (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3251:17)\n    at C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:12263:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3274:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17877:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:17869:25)\n    at _RootZone.runBinary$3$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19864:18)\n    at _RootZone.runBinary$3 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:19868:19)\n    at _FutureListener.handleError$1 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18333:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:18621:40)\n    at Object._Future__propagateToListeners (C:\\Users\\agons\\desktop\\sd\\smart\\node_modules\\sass\\sass.dart.js:3495:88)");
 
 /***/ }),
 

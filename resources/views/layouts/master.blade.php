@@ -75,7 +75,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </router-link>
           </li>
-          <li class="nav-item">
+          
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-chart-bar green"></i>
@@ -97,6 +97,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <router-link to="/reqNutri" class="nav-link ">
                   <i class="fas fa-seedling nav-icon  green"></i>
                   <p>Required Nutrient</p>
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-utensils green"></i>
+              <p>
+                Food
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav -item">
+                <router-link to="/foodManagement" class="nav-link ">
+                  <i class="fas fa-utensils nav-icon indigo "></i>
+                  <p>Food Management</p>
+                </router-link>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav -item">
+                <router-link to="/recipies" class="nav-link ">
+                  <i class="fas fa-receipt nav-icon  green"></i>
+                  <p>Recipies</p>
                 </router-link>
               </li>
             </ul>

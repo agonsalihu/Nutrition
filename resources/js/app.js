@@ -44,6 +44,9 @@ let routes = [
     { path: '/users', component: require('./components/Users.vue').default },
     { path: '/insertAnalysis', component: require('./components/InsertAnalysis.vue').default },
     { path: '/reqNutri', component: require('./components/RequiredNutrient.vue').default },
+    { path: '/recipies', component: require('./components/Recipies.vue').default },
+    { path: '/foodManagement', component: require('./components/FoodManagement.vue').default },
+    
   ]
 const router = new VueRouter({
     mode: 'history',
