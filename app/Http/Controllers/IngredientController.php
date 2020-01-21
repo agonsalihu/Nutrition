@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Ingredients;
 
-class IngridientController extends Controller
+class IngredientController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -47,7 +47,7 @@ class IngridientController extends Controller
      */
     public function show($id)
     {
-        //
+
     }
 
     /**

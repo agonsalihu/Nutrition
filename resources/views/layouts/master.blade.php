@@ -111,6 +111,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav -item">
+                <router-link to="/ingredients/create" class="nav-link ">
+                  <i class="fas fa-utensils nav-icon indigo "></i>
+                  <p>Food Management</p>
+                </router-link>
+              </li>
+              <li class="nav -item">
                 <router-link to="/foodManagement" class="nav-link ">
                   <i class="fas fa-utensils nav-icon indigo "></i>
                   <p>Food Management</p>

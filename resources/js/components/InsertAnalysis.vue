@@ -1,40 +1,112 @@
 <template>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6 mt-3">
+            <div class="col-md-10 mt-3">
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Quick Example</h3>
+                <h3 class="card-title">Insert Stats</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form role="form">
-                <div class="card-body">
-                  <div class="form-group">
+                <div class="card-body row">
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Potassium</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Chlorine</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Sodium</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Calcium</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Phosphorus</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Magnesium</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Iron</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Zinc</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Manganese</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Copper</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">Vitamin A</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">B1 VITAMINS</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">B2 VITAMINS</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">B5 VITAMINS</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">B7 VITAMINS</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">B9 VITAMINS</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">B12 VITAMINS</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">VITAMIN C</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">VITAMIN D</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">VITAMIN E</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">VITAMIN K</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="exampleInputEmail1">FOLIC ACID</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group col-4">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="exampleInputFile">
-                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                      </div>
-                      <div class="input-group-append">
-                        <span class="input-group-text" id="">Upload</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                  </div>
+
+                  
+                  
+                  
                 </div>
                 <!-- /.card-body -->
 

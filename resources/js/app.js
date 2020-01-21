@@ -46,6 +46,7 @@ let routes = [
     { path: '/reqNutri', component: require('./components/RequiredNutrient.vue').default },
     { path: '/recipies', component: require('./components/Recipies.vue').default },
     { path: '/foodManagement', component: require('./components/FoodManagement.vue').default },
+    { path: '/ingrediens/create', component: require('./components/FoodManagement.vue').default },
     
   ]
 const router = new VueRouter({
