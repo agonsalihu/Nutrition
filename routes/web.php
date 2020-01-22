@@ -16,7 +16,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::resource('ingredient', 'IngredientController');
+Route::resource('ingredients', 'IngredientController');
 Route::resource('nutrition_amount', 'NutritionAmountController');
 Route::resource('nutrition', 'NutritionController');
 Route::resource('optimal_dose', 'OptimalDoseController');

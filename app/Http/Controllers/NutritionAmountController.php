@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Analysis;
+use App\Nutrition;
 
 class NutritionAmountController extends Controller
 {
@@ -16,7 +16,14 @@ class NutritionAmountController extends Controller
     {
         //E mett Analizat e userit tash
         //I bon krahasimet me nutrion max min
-
+        /*foreach (Input::get('nutritions') as $nutrition_id => $amount){
+            Analysis::create([
+                'user_id'  =>  Auth::user()->id,
+                'nutrition_id'  =>  $nutrition_id,
+                'amount'  =>  $amount,
+            ]);
+            
+        }*/
         return view('nutrition_amount.index');
     }
 

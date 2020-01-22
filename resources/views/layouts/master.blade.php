@@ -67,12 +67,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <li class="nav-item">
-            <router-link to="/dashboard" class="nav-link">
+            <a href="/home" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt blue" ></i>
               <p>
                 Dashboard
-              </p>
-            </router-link>
+              </p>  
+            </a>
           </li>
 
           <li class="nav-item has-treeview">
@@ -110,18 +110,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav -item">
-                <router-link to="/ingredients/create" class="nav-link ">
+                <a href="/ingredients" class="nav-link ">
                   <i class="fas fa-utensils nav-icon indigo "></i>
                   <p>Food Management</p>
-                </router-link>
+                </a>
               </li>
             </ul>
             <ul class="nav nav-treeview">
               <li class="nav -item">
-                <router-link to="/recipies" class="nav-link ">
+                <a href="/recipe" class="nav-link ">
                   <i class="fas fa-receipt nav-icon  green"></i>
                   <p>Recipies</p>
-                </router-link>
+                </a>
               </li>
             </ul>
           </li>

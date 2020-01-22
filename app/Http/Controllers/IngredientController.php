@@ -14,7 +14,7 @@ class IngredientController extends Controller
      */
     public function index()
     {
-        return view('ingredient.index');
+        return view('ingredients.index');
     }
 
     /**
