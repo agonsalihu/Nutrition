@@ -11,5 +11,9 @@ class Nutritions extends Model
      *
      * @var array
      */
-    protected $fillable = ['name'];
+    protected $fillable = [
+        'name',
+        'minimum_amount',
+        'maximum_amount',
+    ];
 }

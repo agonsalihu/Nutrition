@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Analysis;
 
 class NutritionAmountController extends Controller
 {
@@ -13,6 +14,9 @@ class NutritionAmountController extends Controller
      */
     public function index()
     {
+        //E mett Analizat e userit tash
+        //I bon krahasimet me nutrion max min
+
         return view('nutrition_amount.index');
     }
 

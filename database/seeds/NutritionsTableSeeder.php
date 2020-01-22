@@ -15,10 +15,14 @@ class NutritionsTableSeeder extends Seeder
 
         Nutritions::create([
             'name' => 'potassium',
+            'minimum_amount' => 2,
+            'maximum_amount' => 3,
         ]);
 
         Nutritions::create([
-            'name' => 'chlorine',
+            'name' => 'potassium',
+            'minimum_amount' => 2,
+            'maximum_amount' => 3,
         ]);
 
         Nutritions::create([

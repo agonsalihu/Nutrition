@@ -16,6 +16,8 @@ class CreateNutritionsTable extends Migration
         Schema::create('nutritions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->float('minimum_amount')->default(0);
+            $table->float('maximum_amount')->default(10);
             $table->timestamps();
         });
     }
