@@ -14,16 +14,7 @@ class NutritionAmountController extends Controller
      */
     public function index()
     {
-        //E mett Analizat e userit tash
-        //I bon krahasimet me nutrion max min
-        /*foreach (Input::get('nutritions') as $nutrition_id => $amount){
-            Analysis::create([
-                'user_id'  =>  Auth::user()->id,
-                'nutrition_id'  =>  $nutrition_id,
-                'amount'  =>  $amount,
-            ]);
-            
-        }*/
+        $myNutritions   =
         return view('nutrition_amount.index');
     }
 
