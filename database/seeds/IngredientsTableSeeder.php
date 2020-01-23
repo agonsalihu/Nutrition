@@ -13,13 +13,33 @@ class IngredientsTableSeeder extends Seeder
     public function run()
     {
         Ingredients::create([
-            'name' => 'Karrota',
-            'description' => '',
+            'name' => 'Carrots',
+            'description' => 'Vegetables',
         ]);
 
         Ingredients::create([
-            'name' => 'Karrota',
-            'description' => '',
+            'name' => 'Tomatoes',
+            'description' => 'Vegetables',
+        ]);
+
+        Ingredients::create([
+            'name' => 'Apples',
+            'description' => 'Fruits',
+        ]);
+
+        Ingredients::create([
+            'name' => 'Chicken',
+            'description' => 'Meat',
+        ]);
+
+        Ingredients::create([
+            'name' => 'Steak',
+            'description' => 'Meat',
+        ]);
+
+        Ingredients::create([
+            'name' => 'Onions',
+            'description' => 'Vegetables',
         ]);
     }
 }
