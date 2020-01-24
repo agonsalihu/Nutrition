@@ -40,12 +40,13 @@ class AnalysisController extends Controller
     public function store(Request $request)
     {
         foreach (Input::get('nutritions') as $nutrition_id => $amount){
-            Analysis::create([
-                'user_id'  =>  Auth::user()->id,
-                'nutrition_id'  =>  $nutrition_id,
-                'amount'  =>  $amount,
-            ]);
+            Analysis::updateOrCreate(
+                ['user_id'  =>  Auth::user()->id, 'nutrition_id'  =>  $nutrition_id],
+                ['amount'  =>  $amount]
+            );
         }
+
+        return redirect('nutrition_amount');
     }
 
     /**

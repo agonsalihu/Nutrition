@@ -12,4 +12,12 @@ class Ingredients extends Model
      * @var array
      */
     protected $fillable = ['name', 'description'];
+
+    /**
+     * The nutritions that belong to the Ingredient.
+     */
+    public function nutritions()
+    {
+        return $this->belongsToMany('App\Nutritions', 'nutrition_amounts', 'ingredient_id', 'nutrition_id')->withPivot('amount');
+    }
 }

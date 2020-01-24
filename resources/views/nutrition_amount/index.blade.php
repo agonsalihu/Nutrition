@@ -19,13 +19,17 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Potassium</td>
-                                
-                                <td><span class="badge bg-danger">2</span></td>
-                            </tr>
-                            
+
+                            @foreach($analyses as $analysis)
+                                <tr>
+                                    <td>{{$analysis->id}}</td>
+                                    <td>{{$analysis->name}}</td>
+
+                                    <td class="{{$analysis->bg_type}}"><span
+                                            >{{$analysis->pivot->amount}}</span>
+                                    </td>
+                                </tr>
+                            @endforeach
                             </tbody>
                         </table>
                     </div>

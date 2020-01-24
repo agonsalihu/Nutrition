@@ -12,4 +12,5 @@ class Analysis extends Model
      * @var array
      */
     protected $fillable = ['user_id', 'nutrition_id', 'amount'];
+
 }

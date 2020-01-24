@@ -18,7 +18,7 @@
                                 <div class="form-group col-4">
                                     <label for="nutritions[{{$nutritions->id}}]">{{$nutritions->name}}</label>
                                     <input type="number" step="0.01" class="form-control"
-                                           name="nutritions[{{$nutritions->id}}]" placeholder="Minerals">
+                                           name="nutritions[{{$nutritions->id}}]" placeholder="Minerals" required>
                                 </div>
                             @endforeach
                         </div>

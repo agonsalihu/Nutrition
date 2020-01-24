@@ -152,14 +152,31 @@ class NutritionAmountTableSeeder extends Seeder
 
         NutritionAmount::create([
             'ingredient_id' => 5,
-            'nutrition_id'  => 3,
+            'nutrition_id'  => 1,
+            'amount'        => 2.9
+        ]);
+
+        NutritionAmount::create([
+            'ingredient_id' => 6,
+            'nutrition_id'  => 2,
+            'amount'        => 5
+        ]);
+        NutritionAmount::create([
+            'ingredient_id' => 6,
+            'nutrition_id'  => 8,
+            'amount'        => 1.4
+        ]);
+
+        NutritionAmount::create([
+            'ingredient_id' => 6,
+            'nutrition_id'  => 2,
             'amount'        => 6.9
         ]);
 
         NutritionAmount::create([
-            'ingredient_id' => 5,
-            'nutrition_id'  => 2,
-            'amount'        => 7
+            'ingredient_id' => 6,
+            'nutrition_id'  => 5,
+            'amount'        => 6
         ]);
     }
 }

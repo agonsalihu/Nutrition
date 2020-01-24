@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Analysis;
-use App\Nutrition;
+use App\Nutritions;
+use Illuminate\Support\Facades\Auth;
 
 class NutritionAmountController extends Controller
 {
@@ -14,8 +15,23 @@ class NutritionAmountController extends Controller
      */
     public function index()
     {
-        $myNutritions   =
-        return view('nutrition_amount.index');
+        $myAnalyses = Auth::user()->nutritions;
+        foreach ($myAnalyses as $myAnalysis){
+            $myAnalysis->optimal = 0;
+            $myAnalysis->bg_type = 'bg-success';
+            if($myAnalysis->pivot->amount < $myAnalysis->minimum_amount){
+                $myAnalysis->optimal = -1;
+                $myAnalysis->bg_type = 'bg-warning';
+            }
+            if($myAnalysis->pivot->amount > $myAnalysis->maximum_amount){
+                $myAnalysis->optimal = 1;
+                $myAnalysis->bg_type = 'bg-danger';
+            }
+        }
+
+        return view('nutrition_amount.index', [
+            'analyses'    => $myAnalyses
+        ]);
     }
 
     /**

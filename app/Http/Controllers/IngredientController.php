@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Ingredients;
+use Illuminate\Support\Facades\Auth;
 
 class IngredientController extends Controller
 {
@@ -14,7 +15,25 @@ class IngredientController extends Controller
      */
     public function index()
     {
-        return view('ingredients.index');
+        $ingredients = Ingredients::with('nutritions')->get();
+        $analyses = Auth::user()->nutritions;
+        foreach ($analyses as $analysis){
+            $analysis->optimal = 0;
+            $analysis->bg_type = 'bg-success';
+            if($analysis->pivot->amount < $analysis->minimum_amount){
+                $analysis->optimal = -1;
+                $analysis->bg_type = 'bg-warning';
+            }
+            if($analysis->pivot->amount > $analysis->maximum_amount){
+                $analysis->optimal = 1;
+                $analysis->bg_type = 'bg-danger';
+            }
+        }
+
+        return view('ingredients.index', [
+            'ingredients'   => $ingredients,
+            'analyses'      => $analyses
+        ]);
     }
 
     /**

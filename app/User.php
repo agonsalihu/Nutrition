@@ -36,4 +36,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * The nutritions that belong to the user.
+     */
+    public function nutritions()
+    {
+        return $this->belongsToMany('App\Nutritions', 'analyses', 'user_id', 'nutrition_id')->withPivot('amount');
+    }
 }
